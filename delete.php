@@ -11,7 +11,7 @@ if (isset($_POST['delete'])) {
     $sql = "DELETE FROM text WHERE id = $id_to_delete";
 
     if (mysqli_query($conn, $sql)) {
-        header('Location: index.php');
+       header('Location: http://localhost/joe_php_form/');
     } else {
         echo 'query error: ' . mysqli_error($conn);
     }
