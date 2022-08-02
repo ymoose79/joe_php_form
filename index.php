@@ -27,7 +27,7 @@ mysqli_close($conn);
 
     <table>
         <tr style="text-decoration: underline;">
-            <td>texrrt</td>
+            <td>text</td>
             <td>delete</td>
         </tr>
         <?php foreach ($textDB as $text) : ?>
